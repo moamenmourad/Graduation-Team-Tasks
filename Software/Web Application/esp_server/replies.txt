@@ -1,0 +1,12 @@
+status:carIsMoving=true&angle=100&distance=100&speed=200 (from arduino)
+status:carIsMoving=false&angle=100&distance=0&speed=0 (from arduino)
+
+exexcutePath:angle=100&distance=100&speed=200 (to arduino)
+exexcutePath:status=inProgress (from arduino)
+exexcutePath:status=completed (from arduino)
+
+exexcuteSequence:moveSquare (to arduino)
+exexcuteSequence:status=inProgress (from arduino)
+exexcuteSequence:status=completed (from arduino)
+
+
