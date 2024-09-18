@@ -1,0 +1,206 @@
+*{  padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    color: #fff;
+}
+body{
+    background-image: url(wilfredo-wesly-032w8A6DaJk-unsplash.jpg);
+    background-attachment:fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: white;
+    z-index: 1;
+}
+.social-icons{
+    display: flex;
+    gap: 40px;
+}
+.h1{
+    font-size: 30px;
+
+  
+}
+
+
+ ul{
+    list-style: none;
+
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px ;
+    Height :40px ;
+    Border-radius: 6px;
+    border: 1px solid white;
+   
+
+   
+}
+.icon1:hover{background-color:rgb(97, 191, 249);}
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px ;
+    Height :40px ;
+    Border-radius: 6px;
+    border: 1px solid white;
+}
+.icon2:hover{background-color:rgb(3, 77, 196);}
+.icon3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px ;
+    Height :40px ;
+    Border-radius: 6px;
+    border: 1px solid white;
+
+ 
+    
+ }
+ .icon3:hover{background-color:rgb(29, 142, 217);}
+ .icon4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px ;
+    Height :40px ;
+    Border-radius: 6px;
+    border: 1px solid white;
+    
+ }
+ .icon4:hover{background-image:linear-gradient(to bottom,purple,red,orange);}
+
+.navbar-links{
+    display: flex;
+    gap: 30px;
+
+
+}
+h2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    mix-blend-mode: overlay;
+    z-index: -1;
+    background-color:rgba(1, 0, 0, 0.444) ;
+    backdrop-filter: blur(1px);
+}
+h2 p {
+    position: absolute;
+    top:40%;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    text-overflow: ellipsis;
+    transform: translateY(-50%);
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 250px;   
+}
+h2 span {
+position: absolute;
+top:60%;
+left: 0;
+width: 100vw;
+height: 80vh;
+transform: translateY(-50%);
+display: grid;
+place-content: center;
+color: white;
+font-size: 80px;
+}
+
+
+
+.tour-description{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    height: 85.45vh;
+}
+.title-left{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.content{
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-left: 30px; 
+}
+.btn{
+    display: flex;
+    align-items: center;
+    width:150px;
+    padding: 13px 28px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    color: black;
+    margin-left: 30px;
+}
+.btn:hover{
+    box-shadow: 0px 2px 5px white;
+}
+.nav-arrows{
+    display: flex;
+    gap: 25px;
+    position:absolute;
+    right: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 120px;
+    margin-right: 30px;
+}
+
+.prev{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid white;
+    background-color: rgba(255,255,255, 0.1);
+    font-size: 20px;
+    
+      
+}
+.prev:hover{
+    background-color: #fff;
+    color: black;
+}
+.next{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid white;
+    background-color: rgba(255,255,255, 0.1);
+    font-size: 20px;
+      
+}
+.next:hover{
+    background-color: #fff;
+   color:black;
+}
